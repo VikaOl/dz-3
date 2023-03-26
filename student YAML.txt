@@ -1,0 +1,62 @@
+Student
+	fullName: "Viktoria Shanghai"
+	age:33
+	address:
+		street: "222 High-street"
+		city: Wroclaw
+		zip: 20-322
+		country: Poland
+	contactCard:
+		phone: +4823232323
+		email: vshanghai@gmail.com
+	schoolName: "IT School \"Best results\""
+	studentID: 12345678
+	gpa: 4.1
+	coursesAssigned [
+		courseID: A001
+		courseName: "Automation Testing"
+		courseDurationHours: 40
+		rating: 5
+		isEnrolled: True
+		teacher
+			type:"Computer Science teacher"
+			firstName: Jack
+			surname:Tokio
+			age: 50
+			address:
+				street: "333 Low-street"
+				city:Krakow
+				zip:01-022
+				country:Poland	
+			contact card:
+				phone:+4834343434
+				email:jtokio@gmail.com
+		courseID: B201
+		courseName: "Google Cloud"
+		courseDurationHours: 5
+		rating: 0
+		isEnrolled: False
+		teachers:
+			- type: "System Administrator"
+			  fullName: "John London"
+			  age: 40
+			  address:
+					street:"123 Best street"
+					city:London
+					zip: 12-345
+					country:England	
+			 contact card
+					phone:+4456565656
+					email:jlondon@gmail.com
+			 - type: "Cybersecurity teacher"
+			  fullName: "Severyn Shevchenko"
+			  age: 23
+			  address:
+					street:"32 Brave street"
+					city:Kharkow
+					zip: 12-345
+					country:Ukraine	
+			 contact card
+					phone:+3856565656
+					email:shevchenko@gmail.com
+	

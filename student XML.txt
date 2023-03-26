@@ -1,0 +1,85 @@
+
+<student>
+	<name>Viktoria</name>
+	<surname>Shanghai</surname>
+	<age>33</age>
+	<address>
+		<street>222 High-street</street>
+		<city>Wroclaw</city>
+		<zip>20-322</zip>
+		<country>Poland</country>
+	</address>
+	<contactCard>
+		<phone>+4823232323</phone>
+		<email>vshanghai@gmail.com</email>
+	</contactCard>
+	<schoolName>IT School</schoolName>
+	<studentID>12345678</studentID>
+	<gpa>4.1</gpa>
+	<coursesAssigned>
+		<course>
+			<courseID>A001</courseID>
+			<courseName>Automation Testing</courseName>
+			<courseDurationHours>40</courseDurationHours>
+			<rating>5</rating>
+			<isEnrolled>true</isEnrolled>
+			<teacher>
+				<type>Computer Science teacher</type>
+				<firstName>Jack</firstName>
+				<surname>Tokio</surname>
+				<age>50</age>
+				<address>
+					<street>333 Low-street</street>
+					<city>Krakow</city>
+					<zip>01-022</zip>
+					<country>Poland</country>
+				</address>
+				<contactCard>
+					<phone>+4834343434</phone>
+					<email>jtokio@gmail.com</email>
+				</contactCard>
+			</teacher>
+		</course>
+		<course>
+			<courseID>B201</courseID>
+			<courseName>Google Cloud</courseName>
+			<courseDurationHours>5</courseDurationHours>
+			<rating>0</rating>
+			<isEnrolled>false</isEnrolled>
+			<teachers>
+				<teacher>
+					<type>System Administrator</type>
+					<firstName>John</firstName>
+					<surname>London</surname>
+					<age>40</age>
+					<address>
+						<street>123 Best street</street>
+						<city>London</city>
+						<zip>12-345</zip>
+						<country>England</country>
+					</address>
+					<contactCard>
+						<phone>+4456565656</phone>
+						<email>jlondon@gmail.com</email>
+					</contactCard>
+				<teacher/>
+				<teacher>
+					<type>Cybersecurity teacher</type>
+					<firstName>Severyn</firstName>
+					<surname>Shevchenko</surname>
+					<age>23</age>
+					<address>
+						<street>32 Brave street</street>
+						<city>Krakow</city>
+						<zip>12-345</zip>
+						<country>Ukraine</country>
+					</address>
+					<contactCard>
+						<phone>++856565656</phone>
+						<email>sshevchenko@gmail.com</email>
+					</contactCard>
+				<teacher/>
+			</teachers>
+		</course>
+	</coursesAssigned>
+</student>
