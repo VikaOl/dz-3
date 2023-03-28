@@ -22,7 +22,7 @@
 	"courseName":"Automation Testing",
 	"courseDurationHours":40,
 	"rating":5,
-	"isEnrolled":True,
+	"isEnrolled":true,
 	"teacher":{
 		"type":"Computer Science teacher",
 		"firstName": "Jack",
@@ -45,7 +45,7 @@
 	"courseName":"Google Cloud",
 	"courseDurationHours":5,
 	"rating":0,
-	"isEnrolled":False,
+	"isEnrolled":false,
 	"teacher":[
 	{
 		"type":"System Administrator",
@@ -61,8 +61,8 @@
 		"contact card":{
 			"phone":"+4456565656",
 			"email":"jlondon@gmail.com"
-		},
-	},
+		}
+	}
 			{
 		"type":"Cybersecurity teacher",
 		"firstName": "Severyn",
@@ -77,7 +77,7 @@
 		"contact card":{
 			"phone":"+3856565656",
 			"email":"jspetrov@gmail.com"
-			},
+			}
 			}
 			]
 			
